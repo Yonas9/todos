@@ -22,6 +22,7 @@ const addTodos = (todo)=>{
     lists.innerHTML +=html
 }
 
+//add todos
 todosForm.addEventListener('submit',e=>{
     e.preventDefault();
     const todo  = todosForm.todo.value.trim();
@@ -32,12 +33,14 @@ todosForm.addEventListener('submit',e=>{
     todosForm.reset();
 })
 
+//Search todo 
 searchForm.addEventListener('keyup',()=>{
     const term = searchForm.search.value.trim();
     searchTodo(term)
    
 })
 
+//Delete todo
 lists.addEventListener('click',e=>{
 
     if(e.target.classList.contains('delete')){
