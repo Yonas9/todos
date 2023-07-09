@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 8;
+    box-sizing: border-box;
+}
+body{
+     background: #352f5b;
+     position: relative;
+}
+.container{
+    background: #352f5b;
+    max-width: 400px;
+    margin: 40px auto;
+
+}
+
+input[type="text"],
+input[type="text"]:focus
+ {
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+}
+.todo input{
+    width: 100%;
+    background: rgb(76, 76, 110);
+}
+
+.list-group-item{
+    color: white;
+    list-style: none;
+   background: #423a6f;
+    margin-bottom: 2px;
+}
+
+.filter{
+    display: none !important;
+}
+
+.delete{
+    color: white;
+    cursor: pointer;
+}
