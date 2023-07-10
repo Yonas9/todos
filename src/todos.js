@@ -1,3 +1,4 @@
+import './styles/style.css'
 const searchForm = document.querySelector('.search');
 const todosForm = document.querySelector('.todo');
 const lists = document.querySelector('.list-group');

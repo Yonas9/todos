@@ -3,11 +3,8 @@
     padding: 8;
     box-sizing: border-box;
 }
-body{
-     background: #352f5b;
-     position: relative;
-}
-.container{
+
+.cont{
     background: #352f5b;
     max-width: 400px;
     margin: 40px auto;

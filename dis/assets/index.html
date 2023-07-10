@@ -7,28 +7,92 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
   <body>
-   <div class="container">
-     
+     <div class="container">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Omnis iste in sint est dolorum, minus dolor consequatur aperiam temporibus 
+        sed quae doloribus nemo culpa id commodi praesentium aut. 
+        Laborum ipsam molestiae accusantium <span class="tootlip" data-message = "I'm tootlip!!">omnis nam enim</span>  repudiandae praesentium ducimus. 
+        Doloremque illum explicabo, eos, reiciendis perspiciatis vel id necessitatibus recusandae laboriosam
+        dolorum voluptatum eius dignissimos deserunt quod!</p>
+ </div>
+ <div class="dropdown">
+  <div class="trigger">Awesome T-shirt Design</div>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Cupiditate delectus asperiores cum incidunt! Aspernatur doloribus 
+       suscipit animi expedita eius totam ab enim. 
+      Necessitatibus eaque quasi praesentium explicabo similique. Neque, molestias.</p>
+  </div>
+ </div>
+ <div class="dropdown">
+  <div class="trigger">Cool Sticker Printing</div>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Cupiditate delectus asperiores cum incidunt! Aspernatur doloribus 
+       suscipit animi expedita eius totam ab enim. 
+      Necessitatibus eaque quasi praesentium explicabo similique. Neque, molestias.</p>
+  </div>
+ </div>
+
+ <h2>More Informations</h2>
+ <div class="tabs">
+  <ul>
+  <li class ="trigger active" data-target = "#about">about</li>
+  <li class ="trigger" data-target = "#delevery">delevery</li>
+  <li class ="trigger" data-target = "#returns">returns</li>
+  <li class ="trigger" data-target = "#todos">todos</li>
+ </ul>
+ <div id="about" class="content active">
+  <h3>About Us</h3>
+  <p>About Us dolor sit, amet consectetur adipisicing elit. 
+    Vitae placeat, 
+    nihil perspiciatis voluptatem itaque autem exercitationem assumenda nemo necessitatibus quo! Possimus fuga natus accusantium atque beatae vel asperiores quam corrupti?
+  Consectetur sit dolore quidem harum excepturi, 
+  error rem dolorem? Id illum magnam, dolores quod magni ut ipsam dicta atque corrupti aliquid praesentium corporis rerum molestias laborum pariatur saepe sunt repellendus?</p>
+ </div>
+ <div id="delevery" class="content">
+  <h4>Delivery</h3>
+  <p>Delivery dolor sit, amet consectetur adipisicing elit. 
+    Vitae placeat, 
+    nihil perspiciatis voluptatem itaque autem exercitationem assumenda nemo necessitatibus quo! Possimus fuga natus accusantium atque beatae vel asperiores quam corrupti?
+  Consectetur sit dolore quidem harum excepturi, 
+  error rem dolorem? Id illum magnam, dolores quod magni ut ipsam dicta atque corrupti aliquid praesentium corporis rerum molestias laborum pariatur saepe sunt repellendus?</p>
+  </div>
+  <div id="returns" class="content">
+  <h3>Return policy</h3>
+  <p>You can return your purchase in 30 days with original recepit , amet consectetur adipisicing elit. 
+    Vitae placeat, 
+    nihil perspiciatis voluptatem itaque autem exercitationem assumenda nemo necessitatibus quo! Possimus fuga natus accusantium atque beatae vel asperiores quam corrupti?
+  Consectetur sit dolore quidem harum excepturi, 
+  error rem dolorem? Id illum magnam, dolores quod magni ut ipsam dicta atque corrupti aliquid praesentium corporis rerum molestias laborum pariatur saepe sunt repellendus?</p>
+  </div>
+ <div id="todos" class="content">
+  <h3>Todos</h3>
+  <div class="cont">
     <header class="text-center text-light my-4">
-      <h2>Search todo</h2>
-      <form class="search"> 
-      <input type="text"class="form-control m-auto"name ="search" placeholder="search">
+    <h2>Search todo</h2>
+    <form class="search"> 
+    <input type="text"class="form-control m-auto"name ="search" placeholder="search">
+  </form>
+</header>
+  
+    <ul class="list-group mx-auto text-light">
+    <li class="list-group-item d-flex justify-content-between align-items-center text-light">
+      <span>milk</span>
+      <i class="fa-regular fa-trash-can delete"></i>
+    </li>
+  
+  </ul>
+  
+    <form class="todo text-light text-center my-4 ">
+      <h2>Add todos</h2>
+      <input class="form-control m-auto"type="text"  name="todo">
     </form>
-  </header>
-    
-      <ul class="list-group mx-auto text-light">
-      <li class="list-group-item d-flex justify-content-between align-items-center text-light">
-        <span>milk</span>
-        <i class="fa-regular fa-trash-can delete"></i>
-      </li>
-    
-    </ul>
-    
-      <form class="todo text-light text-center my-4 ">
-        <h2>Add todos</h2>
-        <input class="form-control m-auto"type="text"  name="todo">
-      </form>
-    </div>
+  </div>
+  
+  </div>
+</div>
+   
    
     <script src="./bundel.js"></script>
   </body>
